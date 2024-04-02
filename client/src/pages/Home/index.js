@@ -1,10 +1,16 @@
-import React from 'react'
-import Header from '../../components/Header.js'
+import React from "react";
+import Header from "../../components/Header.js";
+import Intro from "./Intro.js";
 
 function Home() {
   return (
-<Header/>
-  )
+    <>
+    <div className="bg-primary px-20">
+      <Header />
+      <Intro />
+      </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;
