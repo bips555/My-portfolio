@@ -9,6 +9,11 @@ module.exports = {
         tertiary: "#AD503D",
       },
     },
+    screens: {
+      "lg": { max: "2023px" },
+
+      "sm": { max: "1000px" },
+    },
   },
   plugins: [],
 };
